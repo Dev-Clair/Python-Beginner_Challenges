@@ -17,17 +17,17 @@ user_input = input("\nEnter values: ").split()
 print(all_the_same(user_input))
 
 
-# # Extra Challenge
+# Extra Challenge
 
 
-# def read_backwards(arg: list) -> str:
-#     """
-#         takes a list as argument and
-#         returns a formatted output of strings
-#     """
-#     arg.reverse()
-#     return " ".join(arg)
+def read_backwards(arg: list) -> str:
+    """
+        takes a list as argument and
+        returns a formatted output of strings
+    """
+    arg.reverse()
+    return " ".join(arg)
 
 
-# user_input = input("\nEnter a sentence: ").split()
-# print(read_backwards(user_input))
+user_input = input("\nEnter a sentence: ").split()
+print(read_backwards(user_input))
