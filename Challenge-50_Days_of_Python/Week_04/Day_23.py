@@ -123,7 +123,7 @@ def multiply_words(str1: str):
     """
     words_list = str1.split()
     words_length = []
-    str2 = ","
+    # str2 = ","
     total_length = 1
     for word in words_list:
         if word.islower():
