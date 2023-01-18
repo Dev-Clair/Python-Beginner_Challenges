@@ -1,4 +1,4 @@
-# Day_20: Capitlaize First Letter
+# Day_20: Capitalize First Letter
 
 def capitalize(str_inp: str) -> str:
     """
